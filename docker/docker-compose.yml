@@ -1,0 +1,21 @@
+name: gt2i
+version: "3.8"
+services:
+  serveur_php7:
+    container_name: gt2i-serveur_php7
+    build: Serveur_PHP7
+    volumes:
+      - ../site:/var/www/html
+    ports:
+      - "5002:80"
+
+  mysql:
+    container_name: gt2i-mysql
+    build: Mysql
+    volumes:
+      - ./mysql-datas:/var/lib/mysql
+    ports:
+      - "5001:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_SSL_MODE: DISABLED

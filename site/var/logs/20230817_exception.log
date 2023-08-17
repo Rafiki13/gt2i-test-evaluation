@@ -2,3 +2,5 @@
 *ERROR* 	v8.1.1	2023/08/17 - 12:16:56: Shop not found at line 438 in file classes/shop/Shop.php
 *ERROR* 	v8.1.1	2023/08/17 - 12:17:04: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php
 *ERROR* 	v8.1.1	2023/08/17 - 12:17:05: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.1	2023/08/17 - 21:22:48: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.1	2023/08/17 - 21:22:49: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php

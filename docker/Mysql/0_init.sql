@@ -1,1 +1,2 @@
 CREATE DATABASE prestashop;
+CREATE DATABASE exercice2;
